@@ -1,12 +1,16 @@
+import Header from './components/Header';
 
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        test
-      </header>
+    <div>
+      <Header />
+      <div>
+        <Main />
+        <Basket />
+      </div>
+
     </div>
   );
 }
