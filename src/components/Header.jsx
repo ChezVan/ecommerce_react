@@ -2,7 +2,7 @@ import React from 'react'
 
 function Header() {
   return (
-    <div className='block'>
+    <div className='row center block'>
 
       <div>
         <a href="/#">
@@ -10,8 +10,8 @@ function Header() {
         </a>
       </div>
       <div>
-        <a href="">Cart</a>
-        <a href="">Sign in</a>
+        <a href="#/cart">Cart</a>
+        <a href="#/signin">Sign in</a>
       </div>
 
     </div>
