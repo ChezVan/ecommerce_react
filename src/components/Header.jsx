@@ -5,7 +5,7 @@ function Header() {
     <div className='row center block'>
 
       <div>
-        <a href="/#">
+        <a href="#/">
           <h2>Simple Shop</h2>
         </a>
       </div>
