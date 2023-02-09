@@ -5,13 +5,12 @@ import './index.css';
 
 function App() {
   return (
-    <div className='row'>
+    <div>
       <Header />
-      <div>
+      <div className='row'>
         <Main />
         <Basket />
       </div>
-
     </div>
   );
 }
