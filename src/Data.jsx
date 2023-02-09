@@ -1,6 +1,6 @@
 const data =
 {
-    prodcts:[
+    products:[
         {
             id:'1',
             name:'Macbook',

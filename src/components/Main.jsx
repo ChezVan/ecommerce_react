@@ -1,16 +1,16 @@
 import React from 'react'
 
 function Main(props) {
-  const {prodcts} = props
+  const {products} = props
   return (
     <div className='block col-2'>
       <h2> Products</h2>
       <div className="row">
-        {prodcts.map((products) => (
-          <div>{prodcts.name}</div>
+        {products.map((products) => (
+          <div>{products.name}</div>
         ))}
       </div>
-    </div>
+    </div>  
   )
 } 
 
