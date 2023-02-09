@@ -2,14 +2,15 @@ import Header from './components/Header';
 import Main from './components/Main';
 import Basket from './components/Basket'
 import './index.css';
+import data from './Data';
 
 function App() {
+  const {products} = data
   return (
     <div>
       <Header />
       <div className='row'>
-        test
-        <Main />
+        <Main products = {products}/>
         <Basket />
       </div>
     </div>
