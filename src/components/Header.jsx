@@ -10,8 +10,7 @@ function Header() {
         </a>
       </div>
       <div>
-        <a href="#/cart">Cart</a>
-        <a href="#/signin">Sign in</a>
+        <a href="#/cart">Cart</a> <a href="#/signin">Sign in</a>
       </div>
 
     </div>

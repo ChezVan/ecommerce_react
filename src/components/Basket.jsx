@@ -2,7 +2,7 @@ import React from 'react'
 
 function Basket() {
   return (
-    <div className='col-1'>Basket</div>
+    <div className='block col-1'>Basket</div>
   )
 }
 
