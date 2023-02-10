@@ -11,7 +11,7 @@ function App() {
       <Header />
       <div className='row'>
         <Main products = {products}/>
-        <Basket />
+        <Basket /> 
       </div>
     </div>
   );
