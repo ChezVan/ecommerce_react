@@ -18,7 +18,7 @@ const data =
             name:'W shoes',
             price: 1800,
             image:'https://picsum.photos/id/21/3008/2800'
-        },
+        }
 
     ]
 }
