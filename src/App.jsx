@@ -3,9 +3,20 @@ import Main from './components/Main';
 import Basket from './components/Basket'
 import './index.css';
 import data from './Data';
+import { useState } from 'react';
 
 function App() {
-  const {products} = data
+
+  const [cartItem, setCardItem] = useState([])
+  const {products} = data;
+  const onAdd = (product) => 
+  {
+
+  }
+  const onRemove = (product) =>
+  {
+    
+  }
   return (
     <div>
       <Header />
