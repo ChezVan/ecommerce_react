@@ -11,17 +11,25 @@ function App() {
   const {products} = data;
   const onAdd = (product) => 
   {
+    const exist = cartItem.find((x) => x.id === product.id);
 
+    if(exist)
+    {
+        const newCartItems = cartItem.map(() => 
+          x.id === product.id ? {...exist, qty: exist.qty +1} : x
+        );
+      setCardItem(newCartItems)
+    }
   }
   const onRemove = (product) =>
   {
-    
+
   }
   return (
     <div>
-      <Header />
+      <Header countCartItem={cartItem.length} />
       <div className='row'>
-        <Main products = {products}/>
+        <Main onAdd={onAdd} onRemove={onRemove} products = {products}/>
         <Basket /> 
       </div>
     </div>
